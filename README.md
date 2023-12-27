@@ -19,9 +19,11 @@ If we represent samples as vectors of size n, where ‘n’ is the number of its
 f(x)=w.x+b
  <BR>
 A threshold function, usually Heaviside or sign functions, maps the scalar value to a binary output:
+
  
 
 
+<img width="283" alt="image" src="https://github.com/Lavanyajoyce/Ex-2--NN/assets/112920679/c6d2bd42-3ec1-42c1-8662-899fa450f483">
 
 
 Indeed if the neuron output is exactly zero it cannot be assumed that the sample belongs to the first sample since it lies on the boundary between the two classes. Nonetheless for the sake of simplicity,ignore this situation.<BR>
